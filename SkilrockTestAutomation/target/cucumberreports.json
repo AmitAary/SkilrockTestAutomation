@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6036339675,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttachHooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Testing with invalid credentials",
+        "description": "",
+        "id": "this-is-lagos-login-feature;testing-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 249672849,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttachHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 175029636,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login page is opened",
+            "match": {
+              "location": "LoginFeatureStepDef.login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47281573,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "invalid username vipul is entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vipul",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginFeatureStepDef.invalid_vipul_is_entered(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42382014,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "invalid password 5556 is entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5556",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginFeatureStepDef.invalid_password_is_entered(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21108005498,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "HomePage should not be visible",
+            "match": {
+              "location": "LoginFeatureStepDef.homepage_should_not_be_visible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10320554796,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttachHooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Testing with invalid credentials",
+        "description": "",
+        "id": "this-is-lagos-login-feature;testing-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 169415800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttachHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 103995981,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login page is opened",
+            "match": {
+              "location": "LoginFeatureStepDef.login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73325311,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "invalid username amit is entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amit",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginFeatureStepDef.invalid_vipul_is_entered(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50002052,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "invalid password 756 is entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "756",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginFeatureStepDef.invalid_password_is_entered(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21255762337,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "HomePage should not be visible",
+            "match": {
+              "location": "LoginFeatureStepDef.homepage_should_not_be_visible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@invalid"
+          }
+        ]
+      }
+    ],
+    "name": "This is Lagos login feature",
+    "description": "",
+    "id": "this-is-lagos-login-feature",
+    "keyword": "Feature",
+    "uri": "LoginFeature.feature"
+  }
+]
